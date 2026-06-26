@@ -1,0 +1,26 @@
+                +----------------------+
+                |    Arduino IDE       |
+                |  Blink Sketch (.ino) |
+                +----------+-----------+
+                           |
+                    Upload via USB
+                           |
+                           ▼
+                +----------------------+
+                |    Arduino UNO       |
+                |   (ATmega328P MCU)   |
+                |                      |
+                |  setup()             |
+                |  └─ pinMode(13,OUTPUT)|
+                |                      |
+                |  loop()              |
+                |  ├─ LED ON           |
+                |  ├─ Delay(1000 ms)   |
+                |  ├─ LED OFF          |
+                |  └─ Delay(1000 ms)   |
+                +----------+-----------+
+                           |
+                    Digital Pin 13
+                           |
+                           ▼
+                  Built-in LED Blinks
